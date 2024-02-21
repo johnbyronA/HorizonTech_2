@@ -1,0 +1,61 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+/* Definición de variables */
+:root {
+  --turquesa: rgb(133, 212, 210);
+  --verde-oliva: rgb(107, 142, 35);
+  --naranja: rgb(255, 165, 0);
+  --beige: rgb(240, 240, 228);
+}
+
+/* Clases de estilo */
+.turquesa {
+  color: var(--turquesa);
+}
+
+.verde-oliva {
+  color: var(--verde-oliva);
+}
+
+.naranja {
+  color: var(--naranja);
+}
+
+.beige {
+  color: var(--beige);
+}
+
+.nav {
+    background-color: var(--naranja);
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+#mission {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#learn{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+    }
+}
+
